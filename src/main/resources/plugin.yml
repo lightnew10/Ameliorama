@@ -1,0 +1,23 @@
+name: Ameliorama
+version: '1.0-SNAPSHOT'
+main: fr.lightnew.ameliorama.Ameliorama
+api-version: '1.20'
+load: POSTWORLD
+authors: [ lightnew ]
+website: https://github.com/lightnew10
+commands:
+  setspawn:
+    permission: ameliorama.setspawn
+    description: Set all spawn with option
+  forcegame:
+    permission: ameliorama.frocegame
+  givespecialitem:
+    permission: ameliorama.gsi
+    aliases:
+      - gsi
+      - givesi
+  zspawn:
+    permission: ameliorama.zspawn
+  configgame:
+    permission: ameliorama.configgame
+    aliases: cg
